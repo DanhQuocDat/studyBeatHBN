@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom'
 import Router from './components/RouteSwitch'
 
 ReactDOM.render(
-  <React>
+  <React.StrictMode>
     <Router />
-  </React>,
+  </React.StrictMode>,
   document.getElementById('root')
 )
